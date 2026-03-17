@@ -23,7 +23,6 @@ def find_edit_and_delete_urls(
     the other one, therefore, is for its deletion.
     !!! Make sure each comment text in unique on the page.
     """
-
     post_page_content = post_page_response.content.decode("utf-8")
     assert len(adapted_comments) >= 2
 
